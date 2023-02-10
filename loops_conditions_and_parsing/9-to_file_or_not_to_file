@@ -1,4 +1,4 @@
-8) #!/usr/bin/env bash
+#!/usr/bin/env bash
 # a Bash script that gives you information about the school life.
 
 file="school"
