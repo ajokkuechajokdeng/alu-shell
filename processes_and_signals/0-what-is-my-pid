@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# print the current shell process ID
 
-echo $$   # print the current shell process ID
+echo $$ 
