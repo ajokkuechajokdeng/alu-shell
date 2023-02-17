@@ -1,6 +1,6 @@
 #!/bin/bash/env bash
 
- if [ $# -gt 0 ]
+if [ $# -gt 0 ]
 then
     if [ "$1" == "start" ]
     then
