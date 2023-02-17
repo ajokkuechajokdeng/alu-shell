@@ -1,2 +1,7 @@
 #!/bin/bash
-find -type f -name "*.gif" -printf "%f\n" | rev | cut -d'.' -f 2- | rev | LC_ALL=C sort -f
+
+# Find all files with .gif extension and sort them by byte values, case-insensitive
+find . -type f -iname "*.gif" | sort -f -k 1.2n | sed 's/\(.*\/\)\(.*\)\..*/\2/' 
+
+# End the listing with a new line
+echo 
